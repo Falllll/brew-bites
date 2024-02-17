@@ -17,28 +17,28 @@ Brew Bites is a delightful web app designed to elevate your culinary experience 
 
 ## Technologies Used
 
--Front-End : HTML, CSS, JavaScript
--Back-End : PHP
--Framework : Laravel 10, TailwindCSSS 3
+- **Front-End** : HTML, CSS, JavaScript
+- **Back-End** : PHP
+- **Framework** : Laravel 10, TailwindCSSS 3
 
 ## Requirement
--PHP 8.1^
--Composer
--Node.JS
--xampp or laragon or whatever you use.
+- **PHP 8.1^**
+- **Composer**
+- **Node.JS**
+- **xampp8** or **laragon** or whatever you use.
 
 ## Installation
 
 - Open the terminal and navigate to the directory where you want to save your project.
-- Run `git clone https://github.com/Falllll/brew-bites.git` (or use SSH with the appropriate URL).
-- Navigate to the project by running `cd brew-bites`.
-- Run `composer install` to install the dependencies.
-- Run `cp .env.example .env` to copy the `.env` file.
-- Open the project in your code editor or run `code .` if you're using Visual Studio Code.
+- Run ```git clone https://github.com/Falllll/brew-bites.git``` (or use SSH with the appropriate URL).
+- Navigate to the project by running ```cd brew-bites```.
+- Run ```composer install``` to install the dependencies.
+- Run ```cp .env.example .env``` to copy the `.env` file.
+- Open the project in your code editor or run ```code .``` if you're using Visual Studio Code.
 - In the `.env` file, update `DB_DATABASE` to your actual database name, and configure other database-related fields if needed (`DB_USERNAME`, `DB_PASSWORD`).
-- Run `php artisan key:generate`
-- Run `php artisan migrate --seed`
-- Run `php artisan serve`
+- Run ```php artisan key:generate```
+- Run ```php artisan migrate --seed```
+- Run ```php artisan serve```
 - Go to `localhost:8000` in your web browser.
 
 If you meet all the requirements, you should not encounter any issues during the installation process. If you come across any issues, feel free to create a new issue.
