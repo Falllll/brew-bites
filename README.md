@@ -33,6 +33,7 @@ Brew Bites is a delightful web app designed to elevate your culinary experience 
 - Run ```git clone https://github.com/Falllll/brew-bites.git``` (or use SSH with the appropriate URL).
 - Navigate to the project by running ```cd brew-bites```.
 - Run ```composer install``` to install the dependencies.
+- Run ```composer require``` and then press enter two times, lastly just text ```yes```.
 - Run ```cp .env.example .env``` to copy the `.env` file.
 - Open the project in your code editor or run ```code .``` if you're using Visual Studio Code.
 - In the `.env` file, update `DB_DATABASE` to your actual database name, and configure other database-related fields if needed (`DB_USERNAME`, `DB_PASSWORD`).
